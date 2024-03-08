@@ -11,27 +11,27 @@
 - [LUNGx](data/LUNGx.zip)
 
 ##### Key to fields
-- Features are denoted by name (where conventional features) or number (deep features) preceded by the prefix `Feature____`
-- `PrimaryKey` denotes the unique lung nodule id
-- `Malignancy` denotes the target class (`N` for benign and `P` for malignant)
-- The other fields dentote dataset-dependent metadata
+- Features are denoted by name (when conventional features) or number (when deep features) preceded by the prefix `Feature____`;
+- `PrimaryKey` denotes the unique lung nodule id;
+- `Malignancy` denotes the target class (`N` for benign and `P` for malignant);
+- The other fields denote dataset-dependent metadata.
 
 #### File naming convention
-- `hc` indicates conventional (hand-crafted) radiomics features
-- `gs`, `pca` or `pcl` indicates the pseudo-colouring method – respectively denoted as GS, PCA and PCL in the paper
-- `convnext`, `resnet50` and `swin_v2` indicates the pre-trained CNN – respectively ConvNeXT, ResNet50 and Swin V2
-- `avgpool` indicates the layer of the CNN model used for feature extraction
-- `br` or `f` respectively denotes whether background removal was used or not
+- `hc` indicates conventional (hand-crafted) radiomics features;
+- `gs`, `pca` or `pcl` indicates the pseudo-colouring method – respectively denoted as GS, PCA and PCL in the paper;
+- `convnext`, `resnet50` and `swin_v2` indicates the pre-trained CNN – respectively ConvNeXT, ResNet50 and Swin V2;
+- `avgpool` indicates the layer of the CNN model used for feature extraction;
+- `br` or `f` respectively denotes whether background removal was used or not.
 
 ### Complete results
 - [`results-complete.csv`](data/results-complete.csv)
 
 ##### Key to fields
-- `Train`, `Test`: train and test dataset
-- `Feature`: the feature set (follows the file naming convention – see above)
-- `Classifier`, `Scaler` the classifier and the feature scaling method used (see Sec. 3.3 of the paper)
-- `Eval-mode`: the accuracy evaluation method (`4-fold` for internal validation and `full` for cross validation)
-- `Accuracy`, `Sensitivity` and `Specificity`: the figures of merit  
+- `Train`, `Test`: train and test dataset;
+- `Feature`: the feature set (follows the file naming convention – see above);
+- `Classifier`, `Scaler` the classifier and the feature scaling method used (see Sec. 3.3 of the paper);
+- `Eval-mode`: the accuracy evaluation method (`4-fold` for internal validation and `full` for cross validation);
+- `Accuracy`, `Sensitivity` and `Specificity`: the figures of merit.  
 
 ### Folds (for internal validation)
 - ['folds-LIDC-IDRI.csv'](data/folds-LIDC-IDRI.csv)
