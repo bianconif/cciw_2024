@@ -36,3 +36,7 @@
 ### Folds (for internal validation)
 - ['folds-LIDC-IDRI.csv'](data/folds-LIDC-IDRI.csv)
 - ['folds-LUNGx.csv'](data/folds-LUNGx.csv)
+
+***
+## License
+[CC BY 4.0 Deed | Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
