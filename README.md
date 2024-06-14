@@ -2,7 +2,7 @@
 
 ### by [Francesco Bianconi](www.bianconif.net), Mario Luca Fravolini, Elena Caltana, [Muhammad Usama Khan](https://www.linkedin.com/in/usama-khan-0a509211a/) and Barbara Palumbo
 
-### Submitted to the [Computational Color Imaging Workshop (CCIW 2024)](http://www.ivl.disco.unimib.it/minisites/cciw-2024/index.html)
+### Accepted for publication at the [8th Computational Color Imaging Workshop (CCIW 2024)](http://www.ivl.disco.unimib.it/minisites/cciw-2024/index.html)
 
 ## Supplementary material
 
@@ -25,6 +25,9 @@
 
 ### Complete results
 - [`results-complete.csv`](data/results-complete.csv)
+
+### Results aggregated by best accuracy for each feature set
+- [`results-best-by-feature-set'](data/results-best-by-feature-set.csv)
 
 ##### Key to fields
 - `Train`, `Test`: train and test dataset;
